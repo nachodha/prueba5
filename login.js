@@ -19,6 +19,7 @@ ingresar.addEventListener ((`submit`), (e) => {
         let key = (data[0].pass === inputPass.value)
         if (nombre == true && key == true) {
             console.log(`logueaste`)
+            window.location = "./panel-tienda/index.html"
         } else {
             console.log(`no logueaste`)
         }
